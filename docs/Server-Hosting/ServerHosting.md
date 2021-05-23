@@ -75,7 +75,7 @@ Continue to: [How to Launch Server on Windows](#How-to-Launch-Server-on-Windows)
 
     === "Internet"
         ```batch
-        start %~dp0ServerHelper.bat +InternetServer/MyServer
+        start %~dp0ServerHelper.bat +SecureServer/MyServer
         ```
 
     === "LAN"
@@ -104,7 +104,7 @@ Continue to: [How to Launch Server on Windows](#How-to-Launch-Server-on-Windows)
 
     === "Internet"
         ```bash
-        ./ServerHelper.sh +InternetServer/MyServer
+        ./ServerHelper.sh +SecureServer/MyServer
         ```
 
     === "LAN"
